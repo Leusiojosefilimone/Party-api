@@ -1,0 +1,15 @@
+
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "nome": "algum serviso3",
+    "description": "alguma descrição3",
+    "price": 9000,
+    "image": "ehbbekb"
+}
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/63d95ba5fbde4781eb53c2ca
